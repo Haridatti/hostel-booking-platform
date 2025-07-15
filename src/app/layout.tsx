@@ -1,14 +1,15 @@
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Preloader from '@/components/Preloader';
+import { Toaster } from '@/components/ui/toaster';
 import type { Metadata } from 'next';
 import './globals.css';
-import { Toaster } from '@/components/ui/toaster';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import Preloader from '@/components/Preloader';
 
 export const metadata: Metadata = {
   title: 'Hostel Booking Platform',
   description: 'Find and book the best hostels worldwide.',
 };
+
 
 export default function RootLayout({
   children,
