@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 import HostelCard from '@/components/HostelCard';
-import { featuredHostels } from '@/lib/mock-data';
 import SearchForm from '@/components/SearchForm';
+import { Button } from '@/components/ui/button';
+import { featuredHostels } from '@/lib/mock-data';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         {/* Overlay */}
         <div className="bg-white/80 backdrop-blur-sm py-10 px-6 rounded-xl max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold font-headline text-destructive-foreground bg-destructive rounded-lg p-4 inline-block">
-            Hostel Booking Platform
+            Hostel Booking Platfor
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80">
             Your compass to the world's most vibrant hostels. Discover, connect, and explore.
